@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<net3d>
+	<slice>
+		<row hoff = "0" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".25" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".5" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".75" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+			</point>
+		</row>
+	</slice>
+
+	<slice>
+		<row hoff = ".25" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = "0" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".75" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="0" dy="-.25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".5" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+	</slice>
+
+	<slice>
+		<row hoff = ".5" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".75" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = "0" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".25" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx=".25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+			</point>
+		</row>
+	</slice>
+
+	<slice>
+		<row hoff = ".75" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="0" dy="-.25" dz=".25"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".5" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = ".25" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="0" dy="-.25" dz="0"/>
+				<neighbor dx=".25" dy="0" dz=".25"/>
+			</point>
+		</row>
+		<row hoff = "0" v_off = ".25">
+			<point to_next = "1">
+				<neighbor dx="-.25" dy=".25" dz="0"/>
+				<neighbor dx="-.25" dy="0" dz=".25"/>
+				<neighbor dx="0" dy=".25" dz=".25"/>
+			</point>
+		</row>
+	</slice>
+</net3d>
